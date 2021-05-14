@@ -24,3 +24,6 @@ Una vez que se avanza en la carrera, es útil tener formularios de temas agrupad
 
 Algunos operadores y procedimientos tienen resultados conocidos los cuales se usan de manera recurrente. Lo ideal para estas tablas no es tener todos los resultados posibles, sino los más útiles para tener a mano.
 
+# Electrónicos-Físicos-etc
+
+Algunas veces en todo un campo deciden colectivamente definir una convención de símbolos distinta para referirse a variables que son relativamente estándar (a veces por conflictos de convenciones o porque quieren ver a gente sufrir por diversión). Lo ideal sería en un formulario adjuntar una página final con aclaraciones respecto a este cambio de convención. Si es posible, señalen en qué libro lo encontraron, de manera que alguien pueda conseguir una versión limonense del libro de referencia e investigar más. 
