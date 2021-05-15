@@ -2,7 +2,7 @@
 .PRECIOUS: build/%/main.pdf
 .SECONDEXPANSION:
 
-SYMLINKS := $(patsubst %.tex,%.pdf,$(wildcard */main.tex))
+SYMLINKS := $(patsubst %.tex,%.pdf,$(shell find -name main.tex -and ! -path './build/*' -and ! -empty))
 
 all: $(SYMLINKS)
 
