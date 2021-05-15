@@ -277,4 +277,4 @@ TSWLatexianTemp*
 
 # config de vscode
 **/*.vscode
-**/*temp*.*
+**/*texindent*.*
