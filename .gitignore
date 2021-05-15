@@ -278,3 +278,6 @@ TSWLatexianTemp*
 # config de vscode
 **/*.vscode
 **/*texindent*.*
+
+# latexindent backup files
+*.bak*
