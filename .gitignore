@@ -281,3 +281,6 @@ TSWLatexianTemp*
 
 # latexindent backup files
 *.bak*
+
+# build output
+/build/
