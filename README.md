@@ -10,11 +10,11 @@ Este es un banco de formularios general para karaTECas
 
 # Reglas
 
-
+- `latexindent` será el único formatter permitido 
 - Nombres de formularios específicos de cursos siguen convención de carpeta: Código-Nombre(Si hay una abreviatura conocida, preferir la misma)
 - Circuitos deben realizarse utilizando el paquete de `circuitikz`
 - Imágenes deben ser guardadas en subcarpetas con el nombre de la unidad lógica a la que corresponden
-- Reusabilidad es prioridad. Gráficos, diagramas, etc deben ser hechos en archivos particulares y deben encontrarse en subcarpetas con el nombre de la unidad lógica a la que corresponden 
+- Reusabilidad es prioridad. Gráficos, diagramas, etc deben ser hechos en archivos particulares y deben encontrarse en subcarpetas con el nombre de la unidad lógica a la que corresponden
 
 # Recopilaciones
 
