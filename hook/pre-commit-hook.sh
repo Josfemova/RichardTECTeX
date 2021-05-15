@@ -15,7 +15,7 @@ then
    git stash --keep-index -u > /dev/null
 fi
 
-(cd $DIR/; find . -name '*.tex' -exec latexindent -y="onlyOneBackUp:1" -s -w {} \;)
+find . -name '*.tex' -exec latexindent -y="onlyOneBackUp:1" -s -w {} \;
 git diff --quiet
 formatted=$?
 
