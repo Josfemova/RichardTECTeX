@@ -1,11 +1,14 @@
 \documentclass{article}
 \usepackage[letterpaper, margin=0.7in]{geometry}
 \usepackage[utf8]{inputenc}
-\usepackage{tabularx}
+\usepackage{xltabular}
 \usepackage{multicol}
+\usepackage{longtable}
 \usepackage{circuitikz}
 \usepackage{subfiles}
 \usepackage{amsmath}
+\usepackage{adjustbox}
+
 \setlength{\parindent}{0pt}
 \begin{document}
 \textbf{Instituto Tecnológico de Costa Rica \\
@@ -15,8 +18,12 @@
     \Huge
     \textbf{Formulario}
 \end{center}
-
+\vspace{0.2in}
+\hrule
 \subfile{unidad1/unidad1}
 \subfile{unidad2/unidad2}
+
+%----no sobreescribir template
+\subfile{unidadTemplate/unidadtemplate}
 
 \end{document}
