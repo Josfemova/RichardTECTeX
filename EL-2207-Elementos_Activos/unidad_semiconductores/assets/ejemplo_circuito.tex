@@ -1,0 +1,22 @@
+\documentclass[../../main.tex]{subfiles}
+\begin{document}
+
+\begin{adjustbox}{scale=0.8}
+    \begin{circuitikz}[american] \draw
+        (0,0) node[anchor=east]{E}
+        to[short, *-*, f=$I_E$] (1,0)
+        (4,0) to[Do,l_=$D_{BE}$, f^=$I_F$] (1,0)
+        (4,0) to[short, *-*] (4, 2)
+        (1,2) to[cI, l^=$\alpha_RI_R$] (4,2)
+        (1,2) -- (1,0)
+        (4,-2) node[anchor=east]{B} to[short, *-*, f=$I_B$] (4,0)
+        (8,0) node[anchor=west]{C}
+        to[short, *-*, f=$I_C$] (7,0)
+        (4,0) to[Do,l=$D_{BC}$, f_=$I_R$] (7,0)
+        (4,0) to[short, *-*] (4, 2)
+        (7,2) to[cI, l_=$\alpha_FI_F$] (4,2)
+        (7,2) -- (7,0);
+    \end{circuitikz}
+\end{adjustbox}
+
+\end{document}

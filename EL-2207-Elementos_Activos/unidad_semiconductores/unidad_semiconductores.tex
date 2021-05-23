@@ -1,0 +1,43 @@
+\documentclass[../main.tex]{subfiles}
+\graphicspath{{\subfix{./assets}}}
+\begin{document}
+\everymath{\displaystyle}
+%-------------------------------
+\hrule
+\vspace*{-\baselineskip}
+\vspace{0.05in}
+\section{Semiconductores}
+\hrule
+\begin{xltabular}{\textwidth}{|X|X|}
+  \hline
+  \underline{\textbf{Constantes}}
+  \newline\newline
+  $\begin{aligned}
+       & 1 \si{\electronvolt} =  1,602\times 10^{-19} \si{\J}                          \\
+       & m_0 = 9,1 \times 10^{-31} \si{\kg}                                            \\
+       & k_B = 1,38 \times 10^{-23} \si{\J\per\kg} = 8,617\times 10^{-5} \si{\eV\per\K} \\
+       & \hbar = 6,626 \times 10^{-34} \si{\J\per\s}                                   \\
+       & 1 \si{\J} = 1 \si{\kg\square\m\per\square\s}                                  \\
+       & q = 1,602 \times 10^{-19} \si{\coulomb}                                       \\
+       & \epsilon_0 = 8,85 \times 10^{-14} \si{\F\per\cm}
+    \end{aligned}$
+  \newline\newline
+  \underline{\textbf{Condiciones normales}}
+  $$T = 300\si{\K}, ~~~ n_i = 10^{10} \si{\per\cubic\cm}, ~~~ v_t = 25.85\si{\mV} \approx 26 \si{\mV}$$
+  &
+  \underline{\textbf{Ecuaciones Electromagnetismo}}
+  \begin{itemize}
+    \item Tensión eléctrica $\phi$
+    \item Campo Eléctrico $\mathcal{E}$
+    \item Permitividad -vacío $\epsilon_0$  -relativa $\epsilon_r$
+    \item Densidad de carga eléctrica $\rho , [\rho] = [\si{\coulomb\per\cubic\cm}]$
+  \end{itemize}
+  $$\mathcal{E} = \nabla\phi$$
+  $$\nabla^2\phi = \nabla\mathcal{E} = \frac{\rho}{\epsilon_0\epsilon_r} = \frac{qN_D}{\epsilon_0\epsilon_r}$$
+  $$C = \frac{Q}{\phi} = \epsilon_0\epsilon_r \frac{A}{d}$$
+  $$J\cdot A = I$$
+  \\
+  \hline
+\end{xltabular}
+%----------------------------------------
+\end{document}
